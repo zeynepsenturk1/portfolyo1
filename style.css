@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;1,500&display=swap');
+*{
+font-family: 'Afacad', sans-serif;
+margin: 0;
+padding: 0;
+}
+:root {
+--main-color: #1d1b1b4b;
+--border: 0.1rem solid rgba(5, 4, 7, 0.4);
+}
+html{
+overflow-x: hidden;
+}
+body{
+    background-color: var(--main-color);
+}
+.menu-container{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    right: 70px;
+    height: 9rem;
+    border-style: inset;
+    border-width: 5px;
+    border-color: var(--border);
+    background-color: var(--main-color); 
+    align-items: center;
+}
+.baslik{
+    font-size: 150%;
+    font-weight: 200;
+    padding-left: 505px;
+    color:var(--border);
+}
+.box{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.611);
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 280px;
+    left: 230px;
+    text-align: center;
+    font-size: 170%;
+ }
+.box2{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.611);
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 280px;
+    left: 760px;
+    text-align: center;
+}
+.yazı1{
+margin-top: 14%;
+font-size: 150%;
+}
+.yazı2{
+margin-top: 14%;
+font-size: 260%;
+}
+.menu-container1{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 8rem;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(132, 132, 132, 0.716); 
+    align-items: center;
+}
+.baslik1{
+    font-size: 120%;
+    font-weight: 200;
+    margin-left: 3vw;  
+    color: rgb(0, 0, 0);
+}
+img{
+    padding: 1%;
+    max-width: 48%;
+    height: auto;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+    height: 7rem;
+    background-color: rgba(132, 132, 132, 0.716); 
+    align-items: center;
+}
+.baslik3{
+    font-size: 120%;
+    font-weight: 200;
+   margin: 3vw;  
+    color: rgb(0, 0, 0);
+ }
+ .p{
+    font-size: 130%;
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-right: 5% ;
+ }
+ .container2{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    right: 30px;
+    height: 7rem;
+    background-color: rgba(132, 132, 132, 0.716); 
+    align-items: center;
+}
+.baslik2{
+    font-size: 120%;
+    font-weight: 200;
+    margin-left: 3vw;  
+    color: rgb(0, 0, 0);
+ }
+ .p2{
+    margin-top: 14%;
+    font-size: 130%;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
